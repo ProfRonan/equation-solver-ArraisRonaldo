@@ -7,7 +7,7 @@ elif decisao == 1:
     a = int(input("Digite o valor de a: "))
     b = int(input("Digite o valor de b: "))
     if a == 0:
-      print("Valor inválido")
+      print("Valor de a inválido")
     elif a !=0:
        print(f"{a}x + {b} = 0")  
 elif decisao == 2:
@@ -16,7 +16,7 @@ elif decisao == 2:
    b = int(input("Digite o valor de b: "))
    c = int(input("Digite o valor de a: "))
    if a == 0:
-      print("Valor inválido")
+      print("Valor de a inválido")
    elif a !=0:
        print(f"{a}x² + {b}x + {c} = 0")  
        if (b*b) - 4*a*c < 0:
