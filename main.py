@@ -27,10 +27,10 @@ elif decisao == 2:
           print("A equação não possui raízes reais")
        elif (b*b) - 4*a*c == 0:
           print("A equação possui apenas uma raiz real")
-          x1 = -b + math.sqrt(((b*b) - 4*a*c)/2*a) 
+          x1 = (-b + math.sqrt(((b*b) - 4*a*c)))/(2*a) 
           print(f"raíz = {x1:.2f}")
        elif (b*b) - 4*a*c > 0:
            print("A equação possui duas raízes reais")
-           x1 = -b + math.sqrt(((b*b) - 4*a*c)/2*a) 
-           x2 = -b - math.sqrt(((b*b) - 4*a*c)/2*a) 
+           x1 = (-b + math.sqrt(((b*b) - 4*a*c)))/(2*a) 
+           x2 = (-b - math.sqrt(((b*b) - 4*a*c)))/(2*a)
            print(f"raíz 1 = {x1:.2f}, raíz 2 = {x2:.2f}")
